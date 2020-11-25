@@ -1,12 +1,17 @@
 def new_hash
-  # return an empty hash
+ new_hash = {}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  person = {
+  name: "Sam",
+  age: 31
+  }
 end
 
 def pioneer
+  hash = {:name => "Grace Hopper"}
+  
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
